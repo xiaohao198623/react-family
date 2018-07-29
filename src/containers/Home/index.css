@@ -1,0 +1,81 @@
+.carousel{
+
+}
+.carousel img{
+   width: 100%;
+    height: auto;
+}
+.slider-dots{
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    bottom: 20px;
+    text-align: center;
+}
+.slider-dots span{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #FFFFFF;
+    margin-left: 10px;
+}
+.slider-dots span.active{
+    background:#00ff00 ;
+}
+.loop{
+    position: relative;
+}
+.lesson-wrap{
+    width: 95%;
+    margin: 0 auto;
+
+}
+.scroll-wrap{
+    padding-bottom: 52px;
+}
+.scroll-wrap p{
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+}
+.lesson-wrap li{
+    position: relative;
+    box-shadow: #3b3b3b 0px 2px 2px -2px ;
+    margin-bottom: 5px;
+    border-radius:5px ;
+    overflow: hidden;
+}
+.lesson-wrap p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background: #FFFFFF;
+    opacity: 0.5;
+    font-size: 15px;
+    color: #660000;
+}
+.lesson-wrap img{
+    width: 100%;
+    height: auto;
+}
+.show-lesson{
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+   color: #ff0000;
+}
+.show-lesson span{
+    padding-left: 5px;
+}
+.wrap{
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}

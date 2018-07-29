@@ -1,0 +1,42 @@
+ul.login{
+    background: #3385FF;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 90;
+}
+ul.login li{
+    margin:10px auto 0;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+ul.login li.forget{
+    height: 30px;
+}
+ul.login li.forget p{
+    height: 30px;
+    line-height: 30px;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: right;
+}
+ul.login li.forget a{
+    color: #ffffff;
+}
+ul.login li label{
+    line-height: 30px;
+    color: #ffffff;
+}
+ul.login li input[type='text']{
+    height: 30px;
+    line-height: 30px;
+}
+
+ul.login li:last-child input{
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+}

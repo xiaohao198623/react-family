@@ -1,0 +1,15 @@
+.my-header{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #ffffff;
+    background: #222222;
+    position: relative;
+    z-index: 100;
+    font-size: 20px;
+}
+.my-header i{
+    position: absolute;
+    top: 25px;
+    left: 10px;
+}

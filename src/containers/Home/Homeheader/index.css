@@ -1,0 +1,42 @@
+.home-header{
+    padding: 10px 0px 10px 10px;
+    background: #2a2a2a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    height: 47px;
+    overflow: visible;
+    z-index: 1000;
+}
+.home-header p{
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+    color: white;
+    box-sizing: content-box;
+}
+.logo{
+    display:block;
+    float: right;
+}
+.menu{
+    display:block;
+    float: left;
+}
+.menu-ul{
+    color: #ffffff;
+    background: #2a2a2a;
+    border-top: 1px #ffffff solid;
+    position: fixed;
+    top: 47px;
+    left: 0;
+    width: 100%;
+}
+.menu-ul li{
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px #ffffff solid;
+    text-align: center;
+}

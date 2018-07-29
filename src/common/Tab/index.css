@@ -1,0 +1,27 @@
+ul.tab {
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    /*border-top: 1px #222222 solid;*/
+    display: flex;
+    box-shadow: #7512ff 0px 1px 4px 2px;
+}
+
+ul.tab li {
+    display: flex;
+    flex: 1;
+    line-height: 50px;
+    /*text-align: center;*/
+    justify-content: center;
+}
+ul.tab li a{
+    display: flex;
+    flex: 1;
+    line-height: 50px;
+    /*text-align: center;*/
+    justify-content: center;
+}
